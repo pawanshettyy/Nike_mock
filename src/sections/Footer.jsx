@@ -17,7 +17,7 @@ const Footer = () => {
             />
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Step into the new term with confidence by visiting your nearest Nike store. Find your perfect size and enjoy exclusive rewards. {"\n"} Made By Pawan Shetty
+            Step into the new term with confidence by visiting your nearest Nike store. Find your perfect size and enjoy exclusive rewards.
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (
@@ -61,7 +61,7 @@ const Footer = () => {
             height={20}
             className='rounded-full m-0'
           />
-          <p>Copyright. All rights reserved.</p>
+          <p>Copyright. All rights reserved. Made By Pawan Shetty.</p>
         </div>
         <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
       </div>
