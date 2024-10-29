@@ -14,8 +14,44 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* Prevents horizontal overflow */
   background-color: black;
   color: white;
+}
+
+/* Navbar Styling */
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed; /* Fixed position */
+  z-index: 10; /* Stays above other elements */
+  background-color: black; /* Semi-transparent background */
+}
+
+nav {
+  padding: 16px 32px; /* Adjusted padding */
+}
+
+/* Nav Links */
+nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* No underline */
+  font-size: 18px; /* Adjust font size */
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 @layer components {
